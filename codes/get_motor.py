@@ -18,7 +18,7 @@ from pymycobot import MechArm
 import time
 import keyboard
 
-mc = MechArm('COM5', 115200)    
+mc = MechArm('COM9', 115200)    
     
 ###### 모터의 각도 값 가져오기 ########
 while True:
