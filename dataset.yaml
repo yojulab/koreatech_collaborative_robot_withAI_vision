@@ -1,15 +1,15 @@
 ### train, val, test 이미지 경로
 ### 이미지와 라벨 관련 파일 이름은 동일
-# 공통 경로 변수 선언
-base_path : D:/Develops/koreatech_collaborative_robot_withAI_vision/
+# 전체 이미지 데이터셋
+path : D:/Develops/koreatech_collaborative_robot_withAI_vision/dataset/dataset/images
+train : D:/Develops/koreatech_collaborative_robot_withAI_vision/output/train/images
+val : D:/Develops/koreatech_collaborative_robot_withAI_vision/output/val/images
+test : D:/Develops/koreatech_collaborative_robot_withAI_vision/output/test/images
 
-# ${} 문법을 사용하여 변수 참조 및 문자열 결합
-path : ${base_path}/dataset/images
-train : ${base_path}/output/train/images
-val : ${base_path}/output/val/images
-test : ${base_path}/output/test/images
-
+# 클래스 개수(number of classes)
 nc : 2
+
+# 클래스 종류
 names : {
   0: normal,
   1: error
