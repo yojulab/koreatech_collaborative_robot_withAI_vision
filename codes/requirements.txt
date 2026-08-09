@@ -1,0 +1,13 @@
+# Runtime dependencies inferred from codes/*.py and codes/*.ipynb imports
+opencv-python
+numpy
+pymycobot
+ultralytics
+keyboard
+matplotlib
+Pillow
+pytesseract
+pyzbar
+python-barcode
+pyyaml
+ipython

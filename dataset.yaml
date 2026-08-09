@@ -1,0 +1,16 @@
+### train, val, test 이미지 경로
+### 이미지와 라벨 관련 파일 이름은 동일
+# 공통 경로 변수 선언
+base_path : D:/Develops/koreatech_collaborative_robot_withAI_vision/
+
+# ${} 문법을 사용하여 변수 참조 및 문자열 결합
+path : ${base_path}/dataset/images
+train : ${base_path}/output/train/images
+val : ${base_path}/output/val/images
+test : ${base_path}/output/test/images
+
+nc : 2
+names : {
+  0: normal,
+  1: error
+}
