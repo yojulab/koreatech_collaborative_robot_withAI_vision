@@ -1,3 +1,4 @@
+
 from pymycobot import MechArm
 import time
 from ultralytics import YOLO
